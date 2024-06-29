@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.std-input-label {
+		@apply block text-sm font-medium text-left;
+	}
+
+	.std-input-error {
+		@apply text-sm text-error;
+	}
+
+	.std-input-field {
+		@apply w-full px-4 py-2 border rounded-md;
+	}
+
+	.std-input-button {
+		@apply rounded-md btn focus:outline-none btn-primary;
+	}
+}
