@@ -1,7 +1,7 @@
 ## SvelteKit Supabase template
 
 This is a work-in-progress template for SvelteKit (with Svelte 5) using Supabase. This is an
-[article](https://www.thespatula.io/svelte/sveltekitv5_supabase/) discussing some of the details of the authentication process.
+[article](https://www.thespatula.io/svelte/sveltekit_supabase/) discussing some of the details of the authentication process.
 
 It's built using Tailwind and DaisyUI, has light and dark modes and a simple profile page that allows changing one's profile image.
 
@@ -10,8 +10,8 @@ It's built using Tailwind and DaisyUI, has light and dark modes and a simple pro
 #### 1. Clone the repo and install libraries
 
 ```bash
-git clone https://github.com/kilroyjones/sveltekit5-supabase-template
-cd sveltekit5-supabase-template
+git clone https://github.com/kilroyjones/sveltekit-supabase-template
+cd sveltekit-supabase-template
 npm i
 ```
 
