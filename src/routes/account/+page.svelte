@@ -1,14 +1,14 @@
 <script lang="ts">
-	// Types and variables
-	import { userStore } from '$lib/stores/user.svelte';
-	import { PUBLIC_SUPABASE_STORAGE_ENDPOINT } from '$env/static/public';
-	import { onMount } from 'svelte';
-	import type { Tables } from '$lib/types/supabase';
+	// Libraries and modules
 	import { deserialize } from '$app/forms';
-	import type { ActionResult } from '@sveltejs/kit';
-	import { enhance } from '$app/forms';
 
-	let user: Tables<'users'> | undefined;
+	// Types and variables
+	import type { Tables } from '$lib/types/supabase';
+	import type { ActionResult } from '@sveltejs/kit';
+
+	import { PUBLIC_SUPABASE_STORAGE_ENDPOINT } from '$env/static/public';
+	import { userStore } from '$lib/stores/user.svelte';
+
 	let formElement: HTMLFormElement;
 	let fileInput: any;
 
