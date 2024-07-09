@@ -36,7 +36,6 @@
 				 * triggering function from completing
 				 */
 				userStore.reset();
-				console.log('butter');
 				goto('/', { replaceState: true });
 				invalidate('/'); // Explicitly invalidate the current page
 			}
