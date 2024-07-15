@@ -15,7 +15,7 @@ cd sveltekit-supabase-template
 npm i
 ```
 
-#### 2.Getting Google OAuth keys
+#### 2. Getting Google OAuth keys
 
 On the [Google dashboard](https://console.cloud.google.com/apis/dashboard) either select an exisitng project or create a new one. The go to **Credentials** and **Create Credentials** then select **OAuth client id** and go through the process, putting in _http://localhost:5173_ for **URIs1**. For _Authorized redirect URIs_ you can put anything for now, but we'll replace it after the next step.
 
