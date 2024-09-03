@@ -58,6 +58,5 @@
 {#if mounted}
 	<Navbar></Navbar>
 	{mounted}
-	{children}
 	{@render children()}
 {/if}
