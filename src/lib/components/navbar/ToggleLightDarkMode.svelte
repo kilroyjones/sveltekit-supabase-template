@@ -53,6 +53,7 @@
 		const themeFromCookie = getCookie('currentTheme');
 		if (themeFromCookie) {
 			currentTheme = themeFromCookie;
+			document.documentElement.setAttribute('data-theme', currentTheme);
 		}
 	});
 </script>
